@@ -120,12 +120,12 @@
       <yloc>112</yloc>
       </entry>
     <entry>
-      <name>Transformation 3</name>
+      <name>fact table ingressi</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename/>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;ingressi.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -184,7 +184,7 @@
     </hop>
     <hop>
       <from>fact lauree transformation</from>
-      <to>Transformation 3</to>
+      <to>fact table ingressi</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -192,7 +192,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Transformation 3</from>
+      <from>fact table ingressi</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>

@@ -198,7 +198,7 @@
            <schema_name/>
            </partitioning>
     <connection>databaseConnection</connection>
-    <sql>SELECT CAST&#x28;d.year AS INTEGER&#x29; AS year, cast&#x28;d.month as integer&#x29; as month, cast&#x28;d.day as integer&#x29; as day, cast &#x28;d.pentahodate as integer&#x29; as pentahodata, cast &#x28;d.pentahodate as integer&#x29; as datastring FROM raw.tempo d WHERE d.year &#x3e;&#x3d; 2006 AND d.year &#x3c;&#x3d; 2016</sql>
+    <sql>SELECT CAST&#x28;d.year AS INTEGER&#x29; AS year, cast&#x28;d.month as integer&#x29; as month, cast&#x28;d.day as integer&#x29; as day, cast &#x28;d.pentahodate as integer&#x29; as pentahodata, cast &#x28;d.pentahodate as integer&#x29; as datastring FROM raw.tempo d WHERE d.year &#x3e;&#x3d; 2004 AND d.year &#x3c;&#x3d; 2016</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
